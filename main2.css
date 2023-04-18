@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.text_area {
+    width: 1000px;
+    height: 300px;
+    background-color: #dcdde1;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 20px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.keyboard_btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    border: 3px solid #000000;
+    background-color: #555556;
+    color: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+
+}
+
+.keyboard {
+    width: 1020px;
+    height: 340px;
+    background-color: #dcdde1;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.first_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+
+.third_row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+
+.fourth_row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+
+.keyboard_btn_backspace {
+    width: 150px;
+}
+
+.keyboard_btn_tab {
+    width: 100px;
+}
+
+.keyboard_btn_enter {
+    width: 100px;
+}
+
+.keyboard_btn_CapsLock {
+    width: 150px;
+}
+
+.keyboard_btn_shift_l {
+    width: 150px;
+}
+
+.keyboard_btn_shift_r {
+    width: 150px;
+}
+
+.keyboard_btn_space {
+    margin-top: 13px;
+    width: 1010px;
+}
+
+.active {
+    background-color: #ecf0f1;
+    color: #000000;
+}
+
+.task {
+    margin: 50px auto;
+    position: absolute;
+    right: 20px;
+    top: 0;
+
+}
+
+.task_link {
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 9px;
+    background-color: wheat;
+    color: black;
+}
